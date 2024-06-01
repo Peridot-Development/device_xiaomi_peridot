@@ -1,0 +1,45 @@
+# Bluetooth
+bluetooth.profile.sap.server.enabled=true
+
+# Debug
+persist.sys.debug.fdtrack_abort_threshold=4096
+persist.sys.debug.fdtrack_enable_threshold=2048
+persist.sys.qseelogd=true
+
+# Display
+persist.sys.mi_shadow_supported=true
+persist.sys.support_view_smoothcorner=true
+persist.sys.support_window_smoothcorner=true
+ro.surface_flinger.supports_background_blur=1
+
+# Location Services
+persist.sys.gps.fence=true
+persist.sys.gps.polaris=true
+
+# Memory Management
+ro.malloc.impl=jemalloc
+
+# Provisioning
+persist.sys.timezone=Asia/Shanghai
+ro.fota.oem=Xiaomi
+
+# Security
+ro.secureboot.devicelock=1
+
+# Stability
+persist.sys.oom_crash_on_watchdog=true
+persist.sys.stability.nativehang.enable=true
+persist.sys.stability.report_app_launch.enable=true
+persist.sys.sysrqOnAnr_D_state=true
+
+# System Configuration
+persist.sys.mcd_config_file=/system_ext/etc/mcd_default.conf
+persist.vendor.dpm.feature=11
+ro.product.system_ext.cert=
+ro.product.system_ext.marketname=
+ro.rom.zone=1
+telephony.active_modems.max_count=2
+ro.telephony.sim_slots.count=1
+
+# UI
+ro.support_one_handed_mode=true
