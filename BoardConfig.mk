@@ -63,6 +63,8 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := peridot_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/peridot
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
