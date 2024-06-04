@@ -11,7 +11,6 @@ KERNEL_PATH := kernel
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     vendor \
-    init_boot \
     odm \
     system \
     boot \
