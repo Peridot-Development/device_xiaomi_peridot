@@ -94,7 +94,6 @@ persist.sys.stability.window_monitor.enabled=true
 persist.sys.stability.window_monitor.kill_when_leak=true
 persist.sys.unionpower.enable=true
 persist.sys.usap_pool_enabled=false
-ro.dalvik.vm.enable_uffd_gc=false
 ro.hwui.max_texture_allocation_size=314572800
 
 # Network
@@ -142,8 +141,6 @@ ro.af.client_heap_size_kbyte=7168
 ro.display.screen_type=1
 ro.hwui.max_texture_allocation_size=314572800
 ro.millet.netlink=31
-ro.product.ab_ota_partitions=product
-ro.product.cpu.pagesize.max=4096
 ro.product.product.cert=
 ro.product.product.marketname=
 ro.vendor.media_performance_class=34
