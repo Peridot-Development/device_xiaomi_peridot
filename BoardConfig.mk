@@ -19,7 +19,6 @@ AB_OTA_PARTITIONS += \
     dtbo \
     system_ext \
     vendor_boot \
-    recovery \
     system_dlkm
 BOARD_USES_RECOVERY_AS_BOOT := true
 
