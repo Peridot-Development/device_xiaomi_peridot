@@ -102,7 +102,6 @@ persist.debug.wfd.enable=1
 ril.subscription.types=NV,RUIM
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.actionable_compatible_property.enabled=true
-ro.allow.mock.location=0
 ro.com.android.mobiledata=false
 ro.opengles.version=196610
 ro.telephony.default_network=33,33
