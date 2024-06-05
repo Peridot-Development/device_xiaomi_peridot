@@ -20,7 +20,6 @@ AB_OTA_PARTITIONS += \
     system_ext \
     recovery \
     init_boot \
-    vendor_boot \
     system_dlkm
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
 
